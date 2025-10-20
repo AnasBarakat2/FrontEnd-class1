@@ -1,0 +1,19 @@
+*{
+background-color: beige;
+}
+
+h1{
+    color: blue; background-color: rgb(167, 150, 150);
+}
+.head{
+    color: aqua; size: 50;
+}
+#head2{
+    color: bisque;background-color: rgb(5, 5, 20);
+}
+label{
+    color: blueviolet;background-color: blue;
+}
+input{
+    color: rgb(110, 223, 17) ;font-style: normal;
+}
