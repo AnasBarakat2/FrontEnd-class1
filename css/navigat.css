@@ -1,0 +1,42 @@
+p{
+    background-color: brown;
+    margin-bottom: 50%; /* margin: بتعمل مسافة بين العنصر و العنصر الآخر*/
+
+}
+
+h2{
+    background-color: aquamarine;
+    border: 2px solid black; /* عمل اطار */
+    display: inline; /* طرق العرض اما يحجز سطر او بلوك*/
+    padding: 10% 30%;/* pading : بتعمل مسافة بين العنصر الإطار اللي حوله*/
+    margin-top: 20% ; /* بعمل مسافة هامش من الاعلى بمقدار 20*/
+}
+#navbar{
+    background-color: rgb(20, 114, 177);
+    display: flex;/* طريقة العرض بعملها فليكس حتى يكون سهل علي احرك العنصر براحتي*/
+    justify-content:space-between;
+    align-items:center;
+    height: 150px;/* ارتفاع ال navigation bar*/
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    margin-right: 40%;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: bisque;
+}
+img{
+    border-radius: 50px; /*حتى يكون شكل الشعار دائري*/
+    margin-left: 20%;
+}
+body{
+    margin: 0; /* حتى ما يكون عندي هوامش بالصفحة */
+    padding: 0%;
+}
+a:hover{
+    color: red;/* بتغير لون الايتم لما يأشر عليه*/
+}
