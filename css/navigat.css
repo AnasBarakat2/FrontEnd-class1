@@ -15,7 +15,7 @@ h2{
     background-color: rgb(20, 114, 177);
     display: flex;/* طريقة العرض بعملها فليكس حتى يكون سهل علي احرك العنصر براحتي*/
     justify-content:space-between;
-    align-items:center;
+    align-items:center; 
     height: 150px;/* ارتفاع ال navigation bar*/
 }
 ul{

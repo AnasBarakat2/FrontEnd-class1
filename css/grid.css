@@ -1,0 +1,28 @@
+.mainGrid{
+ background-color: greenyellow; 
+ display: grid; /* لما اكتبها لحالها ما رح يتغير شيء */
+ grid-template-columns: auto auto auto ; /* بقدر استبدل auto بأرقام*/ /* يعني وزع الداتا على 3 اعمدة و حسب عرض الصفحة*/
+                                         /* auto number mean colum number */
+  text-align: center;  /* يعني النص يكون مكانه بالوسط*/                                     
+}
+
+.GridItem{
+ background-color: yellow;
+}
+
+.imgGrid{
+    padding: 1%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+
+button{
+    background-color: rgb(159, 210, 240);
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 150px;
+}
+button:hover{
+    color: red;
+}
