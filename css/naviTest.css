@@ -25,10 +25,11 @@ ul{
 
 img{
 
-    border-radius: 100px;
+    border-radius: 150px;
     /* margin-top: 20%; */
     /* padding-left: 10%; */
     margin-left: 10%;
+    padding: 40px;
     
 }
 a{
@@ -53,8 +54,8 @@ a:hover{
    
 }
 footer {
-    position: fixed;
-    bottom: 0;
+    /* position: fixed; */ /* بنحذفها عشان الفوتر ما يغطي عالصور*/
+    /* bottom: 0; */
     width: 100%;
 }
 
@@ -70,10 +71,43 @@ button{
 .mainGrid{
     display: grid;
     grid-template-columns: auto auto  auto;
+    margin: 30px;
 }
 
-.gridItem{
-    display: grid;
+.GridItem{
+   
+    border: 2px solid black;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10%;
     
-   align-items: center;
+    
+   /* align-items: center; */
+}
+.imgGrid{
+    width: 250px;
+    border-radius: 20px;
+}
+.GridItem button{
+    font-size: 20px;
+    background-color: blue;
+    color: bisque;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.GridItem button:hover{
+    background-color: bisque; /* بتغير لون الزر لما نأشر عليه*/
+    color: blue;
+}
+
+.imgGrid:hover{
+    width: 300px; /* عشان يكبر الصورة لما نأشر عليها*/
+}
+
+.GridItem p {
+    font-size: larger;
+    color: rgb(109, 30, 30);
+ 
 }
