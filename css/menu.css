@@ -1,0 +1,89 @@
+#navbar{ 
+    background-color: rgb(173, 173, 237);
+    width: 100%;
+    height: 150px;
+    grid-area: navbar;
+    display: flex;
+
+}
+
+#menu{
+    background-color: rgb(81, 81, 230);
+    width: 100%;
+    height: 100%;
+    grid-area: menu;
+
+
+}
+
+#main{
+    background-color: rgb(22, 22, 115);
+    width: 100%;
+    height: 800px;
+    grid-area: main;
+
+
+}
+
+#footer{
+    background-color: rgb(1, 1, 37);
+    width: 100%;
+    height: 150px;
+    grid-area: footer;
+
+
+}
+
+#MainGrid{
+    display: grid;
+    grid-template-areas: 'navbar navbar navbar'
+                         'menu main main'
+                          'menu footer footer ';
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 80px;
+   padding-left: 40%;
+   padding-top: 40px;
+   
+  
+    
+}
+
+#navImg{
+    border-radius: 70px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+    text-align: center;
+   
+}
+
+.gridItem p{
+    display: inline;
+    color: rgb(235, 235, 162);
+    position: absolute;
+    margin-top: 50px;
+    
+}
+
+
+
+.mainGrid{
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+
+
+
