@@ -1,0 +1,82 @@
+#mainGrid{
+    display: grid;
+    grid-template-areas: 'navbar navbar navbar'    /* بكتب بهذه الطريقة عشان اقسم الصفحة لمساحات بناءا على كل جزء كيف حجمه بالصفحة*/
+                         'menu main main'
+                         'menu footer footer'; 
+    
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; /*عشان اذا كان عندي زيادة بالحجم يكون ال pading من ضمن الزيادة */
+}
+
+#navbar{
+    background-color: rgb(127, 187, 236);
+    width: 100%;
+    height: 150px;
+    grid-area: navbar; /* هون بعطي لكل جزء اسم عشان استدعيه بال main grid  اللي حاوي كل الاجزاء*/
+
+}
+
+#main{
+    background-color: rgb(23, 81, 129);
+     width: 100%;
+     height: 800px;
+     grid-area: main;
+}
+
+#menu{
+    background-color: rgb(10, 35, 55);
+     width: 100%;
+     height: 100% ;
+     grid-area: menu;
+}
+
+#footer{
+    background-color: rgb(177, 188, 197);
+     width: 100%;
+     height: 150px;
+     grid-area: footer;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding-left: 40%;
+    gap: 15%;
+    text-align: center;
+    
+    padding-top: 15px;
+}
+
+a{
+    color: rgb(233, 17, 17);
+    font-size: larger;
+    text-decoration: none;
+}
+
+#navImg{
+    border-radius: 70%;
+    padding: 10;
+}
+
+.menulist{
+   display: inline;
+   text-align: center;
+   list-style: none;
+   
+  
+   
+    
+    
+}
+
+.menulist a{
+    color: rgb(125, 222, 162);
+    font-size: larger;
+    
+   
+    
+}
