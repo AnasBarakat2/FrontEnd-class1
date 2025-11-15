@@ -1,0 +1,51 @@
+#navbar{
+    background-color: rgb(20, 114, 177);
+    display: flex;/* طريقة العرض بعملها فليكس حتى يكون سهل علي احرك العنصر براحتي*/
+    justify-content:space-between;
+    align-items:center; 
+    height: 150px;/* ارتفاع ال navigation bar*/
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    margin-right: 40%;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: bisque; }
+
+*{
+    padding: 0;
+   margin: 0;
+}   
+
+
+
+
+
+
+#div1{
+    background-color: burlywood;
+    height: 600px;
+    width: 100%;
+}
+
+#div2{
+    background-color: rgb(215, 168, 107);
+    height: 600px;
+    width: 100%;
+}
+
+#div3{
+    background-color: rgb(173, 124, 59);
+    height: 600px;
+    width: 100%;
+}
+
+#div4{
+    background-color: rgb(102, 70, 28);
+    height: 600px;
+    width: 100%;
+}
