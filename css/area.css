@@ -47,6 +47,7 @@ ul{
     padding-left: 40%;
     gap: 15%;
     text-align: center;
+   margin: 20px;
     
     padding-top: 15px;
 }
@@ -55,6 +56,7 @@ a{
     color: rgb(233, 17, 17);
     font-size: larger;
     text-decoration: none;
+    gap: 100px;
 }
 
 #navImg{
