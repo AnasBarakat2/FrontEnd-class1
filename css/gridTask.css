@@ -1,0 +1,41 @@
+#MainGrid{
+    display: grid;
+    grid-template-areas: ' navbar navbar navbar'
+                          'menu main main'
+                          'footer footer footer';
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#navbar{
+    background-color: rgb(240, 142, 15);
+    height: 150px;
+    width: 100%;
+    grid-area: navbar;
+}
+
+#main{
+    background-color: rgb(179, 111, 21);
+    height: 600px;
+    width: 500px;
+    grid-area: main;
+    
+}
+
+#menu{
+    background-color: rgb(86, 59, 24);
+    height: 600px;
+    width: 500px;
+    grid-area: menu;
+}
+
+#footer{
+    background-color: rgb(37, 27, 13);
+    height: 150px;
+    width: 100%;
+    grid-area: footer;
+}
