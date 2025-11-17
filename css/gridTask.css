@@ -1,7 +1,7 @@
 #MainGrid{
     display: grid;
     grid-template-areas: ' navbar navbar navbar'
-                          'menu main main'
+                          'leftSide main rightSide '
                           'footer footer footer';
 }
 
@@ -21,16 +21,23 @@
 #main{
     background-color: rgb(179, 111, 21);
     height: 600px;
-    width: 500px;
+    width: 600px;
     grid-area: main;
     
 }
 
-#menu{
+#leftSide{
     background-color: rgb(86, 59, 24);
     height: 600px;
     width: 500px;
-    grid-area: menu;
+    grid-area: leftSide ;
+}
+
+#rightSide{
+    background-color: rgb(86, 59, 24);
+    height: 600px;
+    width: 500px;
+    grid-area: rightSide;
 }
 
 #footer{
