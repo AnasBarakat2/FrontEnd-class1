@@ -112,6 +112,9 @@ button{
  
 }
 
+
+/*--------------------------- mobile responsive -----------------------------------------------------*/
+
 @media screen and (max-width:600px) {
     body{
         background-color: rgb(174, 161, 161);
@@ -129,15 +132,15 @@ button{
    
     border: 2px solid black;
     text-align: center;
-    padding: 10px;
+    padding: 1px;
     /* margin: px; */
-    margin-left: 15px;
+    margin-left: 1px;
     border-radius: 10%;
     
 }
 
 .imgGrid{
-    width: 150px;
+    width: 100px;
     border-radius: 20px;
 }
 
@@ -153,8 +156,41 @@ button{
 #navigatbar{
  background-color: rgb(15, 55, 107);
  display: flex;
- height: 50%;
+ height: 120px;
 justify-content: space-between;
  align-items:center;
 }
+
+.GridItem p {
+    font-size :small;
+    color: rgb(109, 30, 30);
+ 
+}
+
+ul{
+    list-style: none;/* حتى تكون القائمة بدون ترقيم*/
+    display: flex;/* ليسهل علي تحريك العناصر و التحكم فيها*/
+    gap: 40px;/* المسافة بين العناصر*/
+    /* margin-right: 20%; */
+    margin-left: 10%;
+    
+} 
+
+a{
+    text-decoration: none;
+    font-size: 17px;
+    color: blanchedalmond;
+}
+
+img{
+
+    border-radius: 150px;
+    /* margin-top: 20%; */
+    /* padding-left: 10%; */
+    margin-left: 10%;
+    padding: 40px;
+    
+    
+}
+
 }
