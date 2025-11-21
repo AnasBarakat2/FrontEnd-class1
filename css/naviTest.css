@@ -19,8 +19,8 @@ ul{
     list-style: none;/* حتى تكون القائمة بدون ترقيم*/
     display: flex;/* ليسهل علي تحريك العناصر و التحكم فيها*/
     gap: 80px;/* المسافة بين العناصر*/
-    /* margin-right: 600px; */
-    margin-left: 30%;
+    margin-right: 300px; /*عشان احرك الليست كاملة */
+    /* margin-left: 600px; */
     /* padding-top:10px; */
    
     
@@ -33,7 +33,7 @@ img{
     /* padding-left: 10%; */
     /* margin-left: px; */
     padding: 15px;
-    width: 300px;
+    width: 150px;
     
 }
 a{
@@ -117,6 +117,72 @@ button{
 }
 
 
+/* --------------------Tab responsive------------------------------------------------- */
+
+@media screen and (max-width:900px) {
+
+    body{
+        background-color: rgb(212, 210, 223);
+        padding: 0;
+        margin: 0;
+    }
+
+     .mainGrid{
+    display: grid;
+    grid-template-columns: auto auto ;
+     
+     }
+
+  .GridItem{
+   
+    border: 2px solid black;
+    text-align: center;
+    padding: 1px;
+    margin: px;
+    margin-left: 1px;
+    border-radius: 10%;
+    
+}
+
+.imgGrid{
+    width: 150px;
+    border-radius: 50px;
+}
+
+.GridItem button{
+    font-size: 20px;
+    background-color: blue;
+    color: bisque;
+    padding: 15px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+ul{
+    list-style: none;/* حتى تكون القائمة بدون ترقيم*/
+    display: flex;/* ليسهل علي تحريك العناصر و التحكم فيها*/
+    gap: 40px;/* المسافة بين العناصر*/
+    /* margin-right: 20%; */
+    /* margin-left: 20px; */
+    margin-left: 95px;
+  
+    
+} 
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blanchedalmond;
+    
+}
+
+#navigatbar{
+    height: 150px;
+}
+
+}
+
+
 /*--------------------------- mobile responsive -----------------------------------------------------*/
 
 @media screen and (max-width:600px) {
@@ -165,6 +231,26 @@ justify-content: space-between;
  align-items:center;
 }
 
+navbar img{
+
+    border-radius: 150px;
+    /* margin-top: 20%; */
+    /* padding-left: 10%; */
+    /* margin-left: px; */
+    /* padding: 15px; */
+    width: 70px;
+    /* padding-top: 100px; */
+    position: fixed;
+    top: 2px;
+    
+    
+    
+}
+
+
+
+
+
 .GridItem p {
     font-size :small;
     color: rgb(109, 30, 30);
@@ -177,7 +263,7 @@ ul{
     gap: 40px;/* المسافة بين العناصر*/
     /* margin-right: 20%; */
     /* margin-left: 20px; */
-    margin-left: 95px;
+    margin-left: 40px;
   
     
 } 
@@ -200,68 +286,4 @@ img{
     
 }
 
-}
-
-@media screen and (max-width:900px) {
-
-    body{
-        background-color: rgb(87, 81, 138);
-        padding: 0;
-        margin: 0;
-    }
-
-     .mainGrid{
-    display: grid;
-    grid-template-columns: auto auto ;
-     
-     }
-
-  .GridItem{
-   
-    border: 2px solid black;
-    text-align: center;
-    padding: 1px;
-    /* margin: px; */
-    margin-left: 1px;
-    border-radius: 10%;
-    
-}
-
-.imgGrid{
-    width: 150px;
-    border-radius: 50px;
-}
-
-.GridItem button{
-    font-size: 20px;
-    background-color: blue;
-    color: bisque;
-    padding: 15px;
-    border-radius: 50px;
-    margin-left: 15px;
-}
-
-ul{
-    list-style: none;/* حتى تكون القائمة بدون ترقيم*/
-    display: flex;/* ليسهل علي تحريك العناصر و التحكم فيها*/
-    gap: 40px;/* المسافة بين العناصر*/
-    /* margin-right: 20%; */
-    /* margin-left: 20px; */
-    margin-left: 95px;
-  
-    
-} 
-
-a{
-    text-decoration: none;
-    font-size: 20px;
-    color: blanchedalmond;
-    
-}
-
-#navigatbar{
-    height: 150px;
-}
-
-    
 }
